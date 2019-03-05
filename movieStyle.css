@@ -1,0 +1,8 @@
+/**
+*This uses require and puts an asterisk after the control
+*label. I know it did not work for my inlineRadioOptions.
+*/
+.form-group.required .control-label:after {
+  content: " *";
+  color: red;
+}
